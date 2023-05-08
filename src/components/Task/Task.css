@@ -1,16 +1,21 @@
-.task-container{
-    background-color: #444;
-    margin: 8px 0;
-    padding: 8px 20px;
-    display: flex;
-    border-radius: 5px;
-    justify-content: space-between;
-    color:#eee;
-    align-items: center;
-    cursor: pointer;
+.task-container {
+  background-color: #444;
+  margin: 8px 0;
+  padding: 8px 20px;
+  display: flex;
+  border-radius: 5px;
+  justify-content: space-between;
+  color: #eee;
+  align-items: center;
+}
+.task-title {
+  cursor: pointer;
 }
 
-.add-task-button-container{
-    margin-left: 10px;
-    flex: 1;
+.remove-task-button ,.see-task-details-button{
+  background-color: #444;
+  border: none;
+  font-size: 24px;
+  color: chartreuse;
+  cursor: pointer;
 }

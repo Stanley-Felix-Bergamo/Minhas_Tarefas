@@ -1,13 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
 import './AddTask.css'
 import Button from "../Botao/Button";
 
-const AddTask = () => {
+const AddTask = ({ handleTaskAddition }) => {
+    const [inputDate, setInputData] = useState('');
+
+    const handleInputChange = (e) =>
+        setInputData(e.target.value);
+
+    const handleAddTaskClick = () => {
+        handleTaskAddition(inputDate);
+        setInputData('');
+    };
+
     return (
         <div className="add-task-container">
-            <input className="add-task-input" type="text" />;
+            <input
+                className="add-task-input"
+                type="text"
+                onChange={handleInputChange}
+                value={inputDate} />
+
             <div className="add-task-button-container">
-                <Button>Adicionar</Button>
+                <Button onClick={handleAddTaskClick}>Adicionar</Button>
             </div>
         </div>
     )
