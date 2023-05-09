@@ -12,10 +12,16 @@
   cursor: pointer;
 }
 
-.remove-task-button ,.see-task-details-button{
+.remove-task-button,
+.see-task-details-button {
   background-color: #444;
   border: none;
   font-size: 24px;
   color: chartreuse;
   cursor: pointer;
+}
+
+.buttons-container {
+  display: flex;
+  gap: 20px;
 }
