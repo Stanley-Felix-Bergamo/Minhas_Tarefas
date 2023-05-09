@@ -1,5 +1,13 @@
 # Minhas Tarefas <img align="right" src="https://img.shields.io/static/v1?label=STATUS&message=Está %20Pronto &color=green&style=for-the-badge"/>
 
+
+<div align="center" >
+    <img width="725rem" src="https://servidor-estaticos-ten.vercel.app/Minhas.png" alt="imagem">
+</div>
+
+> Para ver o projeto rodando, você pode acessar este [Link](https://minhas-tarefas-green.vercel.app/).
+
+
 <h2>👨‍🏫 Créditos</h2>
 <p>Este projeto foi realizado nas aulas do <a target="_blank" 
 href="https://www.youtube.com/watch?v=ErjWNvP6mko&ab_channel=FelipeRocha%E2%80%A2dicasparadevs" >Felipe Rocha • dicasparadevs</a>.</p>
