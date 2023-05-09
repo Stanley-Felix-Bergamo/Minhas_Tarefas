@@ -1,4 +1,4 @@
-# Minhas Tarefas <img align="right" src="https://img.shields.io/static/v1?label=STATUS&message=Está %20em andamento &color=red&style=for-the-badge"/>
+# Minhas Tarefas <img align="right" src="https://img.shields.io/static/v1?label=STATUS&message=Está %20Pronto &color=green&style=for-the-badge"/>
 
 <h2>👨‍🏫 Créditos</h2>
 <p>Este projeto foi realizado nas aulas do <a target="_blank" 
